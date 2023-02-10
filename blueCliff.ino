@@ -3,7 +3,7 @@
 #include<VL53L0X.h>
 #include<Wire.h>
 
-////////////////////////// program of Readme ///////////////////////////////
+/////////////////////////// program of Readme /////////////////////////////////
 void blinkLed(uint8_t turns, uint16_t time, bool keep = false);
 void readDistances (char side = 'A');
 void blink_forever (uint16_t time = 250);
